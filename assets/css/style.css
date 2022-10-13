@@ -69,3 +69,42 @@ body {
     color: #acacac;
     transition: all 0.3s ease;
 }
+
+
+
+
+
+
+@media (max-width: 721px) {
+    .relogio  {
+        margin-left: 1px;
+        width: 390px;
+        gap: 15px;
+       
+}
+    .logo {
+        width: 150px;
+        top: 190px;
+        right: 320px;
+    }
+
+    .footer a{
+        display: none;
+    }
+}
+   
+
+
+@media (max-width: 425px) {
+    .relogio  {
+        width: 70%;
+        gap: 15px;
+}
+    .logo {
+        display: none;
+    }
+
+    .footer a{
+        display: none;
+    }
+}
